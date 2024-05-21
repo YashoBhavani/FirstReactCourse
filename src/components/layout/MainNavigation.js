@@ -5,11 +5,11 @@ import classes from './MainNavigation.module.css';
 function MainNavigation(){
     return (
     <header className={classes.header}>
-        <div className={classes.logo}>React Learning Project</div>
+        <div className={classes.logo}>React Project</div>
         <nav>
             <ul>
                 <li>
-                    <Link to='/'>ALl Meetups</Link>
+                    <Link to='/'>All Meetups</Link>
                 </li>
                 <li>
                     <Link to='/new-meetup'>Add New Meetup</Link>
